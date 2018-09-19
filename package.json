@@ -8,8 +8,8 @@
   },
   "author": "Salome Siavoshi",
   "devDependencies": {
-    "gulp": "^3.8.8",
+    "gulp": "^4.0.0",
     "gulp-util": "^2.2.20",
-    "gulp-webserver": "^0.8.1"
+    "gulp-webserver": "^0.9.1"
   }
 }
