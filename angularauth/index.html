@@ -16,9 +16,11 @@
   <script src="js/controllers/success.js"></script>
 </head>
 <body>
-<header></header>
+<header>
+  <nav class="nav-container" ng-include="'views/nav.html'"></nav>
+</header>
 <div class="page">
-  <main class="cf" ng-view>
+  <main class="main-container" ng-view>
   </main>
 </div>
 </body>
