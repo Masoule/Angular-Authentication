@@ -1,4 +1,4 @@
-var authApp = angular.module('auth',['ngRoute']);
+var authApp = angular.module('auth',['ngRoute', 'firebase']);
 
 authApp.config(['$routeProvider', function($routeProvider) {
   $routeProvider.
