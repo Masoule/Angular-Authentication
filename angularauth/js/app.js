@@ -1,6 +1,6 @@
 var authApp = angular.module('auth',['ngRoute', 'firebase']);
 
-authApp.config(['$routeProvider', function($routeProvider) {
+authApp.config(['$routeProvider', $routeProvider => {
   $routeProvider.
     when('/login', {
       templateUrl:'views/login.html',
